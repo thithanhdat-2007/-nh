@@ -1,5 +1,5 @@
 {
-  "audited_at": "2026-11-17 14:20:28",
+  "audited_at": "2026-11-17 17:00:12",
   "total_manifest": 63,
   "total_passed": 63,
   "total_backups": 70,
@@ -30,24 +30,8 @@
       "backups": 28
     }
   },
-  "zip_verification": {
-    "zip_path": "D:\\VanKiem_Art_Output\\VanKiem_All_Art.zip",
-    "zip_bytes": 62498736,
-    "zip_mb": 59.6,
-    "checked_entries": 196,
-    "checked_pngs": 196,
-    "total_uncompressed_mb": 59.6,
-    "archived_count": 196
-  },
-  "export_zip_verification": {
-    "zip_path": "D:\\VanKiem_Art_Output\\VanKiem_Art_Export.zip",
-    "zip_bytes": 12122480,
-    "zip_mb": 11.56,
-    "checked_entries": 63,
-    "checked_pngs": 63,
-    "total_uncompressed_mb": 11.56,
-    "archived_count": 63
-  },
+  "zip_verification": null,
+  "export_zip_verification": null,
   "assets": [
     {
       "asset_id": "Char_KiemTu",
@@ -713,10 +697,10 @@
         256,
         256
       ],
-      "file_bytes": 68556,
+      "file_bytes": 91183,
       "mode": "RGBA",
-      "transparent_ratio": 0.4314,
-      "fg_ratio": 0.5656,
+      "transparent_ratio": 0.5497,
+      "fg_ratio": 0.4339,
       "passed": true,
       "issues": [],
       "remediated": false
@@ -734,10 +718,10 @@
         256,
         256
       ],
-      "file_bytes": 84519,
+      "file_bytes": 84811,
       "mode": "RGBA",
-      "transparent_ratio": 0.4203,
-      "fg_ratio": 0.5689,
+      "transparent_ratio": 0.5571,
+      "fg_ratio": 0.4321,
       "passed": true,
       "issues": [],
       "remediated": false
@@ -755,10 +739,10 @@
         256,
         256
       ],
-      "file_bytes": 56072,
+      "file_bytes": 58352,
       "mode": "RGBA",
-      "transparent_ratio": 0.6018,
-      "fg_ratio": 0.3932,
+      "transparent_ratio": 0.6869,
+      "fg_ratio": 0.3057,
       "passed": true,
       "issues": [],
       "remediated": false
@@ -902,10 +886,10 @@
         512,
         512
       ],
-      "file_bytes": 137910,
+      "file_bytes": 133292,
       "mode": "RGBA",
-      "transparent_ratio": 0.6361,
-      "fg_ratio": 0.3611,
+      "transparent_ratio": 0.8263,
+      "fg_ratio": 0.1709,
       "passed": true,
       "issues": [],
       "remediated": false
@@ -1028,10 +1012,10 @@
         256,
         256
       ],
-      "file_bytes": 115411,
+      "file_bytes": 108885,
       "mode": "RGBA",
-      "transparent_ratio": 0.4337,
-      "fg_ratio": 0.534,
+      "transparent_ratio": 0.4487,
+      "fg_ratio": 0.5216,
       "passed": true,
       "issues": [],
       "remediated": false
@@ -1112,10 +1096,10 @@
         512,
         128
       ],
-      "file_bytes": 81609,
+      "file_bytes": 59218,
       "mode": "RGBA",
-      "transparent_ratio": 0.1294,
-      "fg_ratio": 0.8684,
+      "transparent_ratio": 0.4558,
+      "fg_ratio": 0.5415,
       "passed": true,
       "issues": [],
       "remediated": false
@@ -1301,10 +1285,10 @@
         128,
         128
       ],
-      "file_bytes": 23293,
+      "file_bytes": 23084,
       "mode": "RGBA",
-      "transparent_ratio": 0.4173,
-      "fg_ratio": 0.5807,
+      "transparent_ratio": 0.5594,
+      "fg_ratio": 0.4386,
       "passed": true,
       "issues": [],
       "remediated": false
@@ -1349,7 +1333,7 @@
       "fg_ratio": 0.1846,
       "passed": true,
       "issues": [],
-      "remediated": true
+      "remediated": false
     },
     {
       "asset_id": "VFX_Ice_Shard",
@@ -1370,7 +1354,7 @@
       "fg_ratio": 0.1249,
       "passed": true,
       "issues": [],
-      "remediated": true
+      "remediated": false
     }
   ]
 }
