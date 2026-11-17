@@ -1,0 +1,22 @@
+{
+  "total_assets_run": 1,
+  "total_elapsed_sec": 47.83,
+  "assets": [
+    {
+      "asset_id": "Char_KiemTu",
+      "subfolder": "Characters",
+      "passed_count": 6,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 4,
+        "seed": 899628263,
+        "score": 93.69,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_KiemTu.png"
+      },
+      "backup_count": 5,
+      "elapsed_sec": 47.8
+    }
+  ]
+}
