@@ -1,6 +1,6 @@
 {
-  "total_assets_run": 1,
-  "total_elapsed_sec": 47.83,
+  "total_assets_manifest": 63,
+  "total_assets_reported": 63,
   "assets": [
     {
       "asset_id": "Char_KiemTu",
@@ -16,7 +16,999 @@
         "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_KiemTu.png"
       },
       "backup_count": 5,
-      "elapsed_sec": 47.8
+      "elapsed_sec": 29.06
+    },
+    {
+      "asset_id": "Char_TheTu",
+      "subfolder": "Characters",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 6,
+        "seed": 4143101650,
+        "score": 96.81,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_TheTu.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 7.01
+    },
+    {
+      "asset_id": "Char_PhuTu",
+      "subfolder": "Characters",
+      "passed_count": 4,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 576661103,
+        "score": 91.36,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_PhuTu.png"
+      },
+      "backup_count": 3,
+      "elapsed_sec": 8.31
+    },
+    {
+      "asset_id": "Char_DuocTu",
+      "subfolder": "Characters",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 4,
+        "seed": 2459567510,
+        "score": 93.36,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_DuocTu.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 7.22
+    },
+    {
+      "asset_id": "Enemy_HacLang",
+      "subfolder": "Enemies",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 10,
+        "seed": 2507635469,
+        "score": 76.67,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_HacLang.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 177.94
+    },
+    {
+      "asset_id": "Enemy_HuyetDoi",
+      "subfolder": "Enemies",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 3060848530,
+        "score": 71.64,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_HuyetDoi.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 8.12
+    },
+    {
+      "asset_id": "Enemy_DocGiacXa",
+      "subfolder": "Enemies",
+      "passed_count": 3,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 216254209,
+        "score": 79.95,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_DocGiacXa.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 9.14
+    },
+    {
+      "asset_id": "Enemy_KhoCot",
+      "subfolder": "Enemies",
+      "passed_count": 3,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 1602554444,
+        "score": 92.35,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_KhoCot.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 8.94
+    },
+    {
+      "asset_id": "Enemy_ThietGiapHung",
+      "subfolder": "Enemies",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 2711183148,
+        "score": 77.23,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_ThietGiapHung.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 7.72
+    },
+    {
+      "asset_id": "Boss_HuyetNha",
+      "subfolder": "Enemies",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 6,
+        "seed": 3958369401,
+        "score": 83.81,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Boss_HuyetNha.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 7.53
+    },
+    {
+      "asset_id": "Boss_CuuULoiGiao",
+      "subfolder": "Enemies",
+      "passed_count": 1,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 9,
+        "seed": 4148023887,
+        "score": 74.18,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Boss_CuuULoiGiao.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 213.89
+    },
+    {
+      "asset_id": "Weapon_CuKiem",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 658352393,
+        "score": 78.11,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_CuKiem.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 170.72
+    },
+    {
+      "asset_id": "Weapon_KimChung",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 766497650,
+        "score": 82.37,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_KimChung.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 172.28
+    },
+    {
+      "asset_id": "Weapon_HuyetDao",
+      "subfolder": "Icons",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 573587561,
+        "score": 77.42,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_HuyetDao.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 343.53
+    },
+    {
+      "asset_id": "Weapon_LienHoaDang",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 4211511782,
+        "score": 77.5,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_LienHoaDang.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 172.22
+    },
+    {
+      "asset_id": "Weapon_ThanhTrucKiem",
+      "subfolder": "Icons",
+      "passed_count": 3,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 2190300005,
+        "score": 81.97,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_ThanhTrucKiem.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 174.0
+    },
+    {
+      "asset_id": "Weapon_HuyenBangPhu",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 2503752695,
+        "score": 73.25,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_HuyenBangPhu.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 171.36
+    },
+    {
+      "asset_id": "Item_Dan_HoiHuyet",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 4,
+        "seed": 2837797723,
+        "score": 86.95,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_HoiHuyet.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 172.42
+    },
+    {
+      "asset_id": "Item_Dan_TuKhi",
+      "subfolder": "Icons",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 6,
+        "seed": 2291580537,
+        "score": 78.43,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_TuKhi.png"
+      },
+      "backup_count": 3,
+      "elapsed_sec": 344.11
+    },
+    {
+      "asset_id": "Item_Dan_BaoNguyen",
+      "subfolder": "Icons",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 4,
+        "seed": 558640131,
+        "score": 64.11,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_BaoNguyen.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 342.39
+    },
+    {
+      "asset_id": "Item_Dan_TayTuy",
+      "subfolder": "Icons",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 2457705952,
+        "score": 89.29,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_TayTuy.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 172.61
+    },
+    {
+      "asset_id": "Item_Dan_HoTam",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 13,
+        "seed": 3123123978,
+        "score": 68.73,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_HoTam.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 347.84
+    },
+    {
+      "asset_id": "Item_Dan_PhiThang",
+      "subfolder": "Icons",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 1108262756,
+        "score": 73.9,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_PhiThang.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 346.55
+    },
+    {
+      "asset_id": "Fruit_KiemTam",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 15,
+        "seed": 3296304413,
+        "score": 71.49,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_KiemTam.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 346.34
+    },
+    {
+      "asset_id": "Fruit_BatDiet",
+      "subfolder": "Icons",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 12,
+        "seed": 531948678,
+        "score": 63.07,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_BatDiet.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 348.12
+    },
+    {
+      "asset_id": "Fruit_LoiDinh",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 14,
+        "seed": 2245071985,
+        "score": 82.02,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_LoiDinh.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 350.17
+    },
+    {
+      "asset_id": "Fruit_HonDon",
+      "subfolder": "Icons",
+      "passed_count": 3,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 11,
+        "seed": 3619077561,
+        "score": 80.12,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_HonDon.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 353.77
+    },
+    {
+      "asset_id": "Fruit_TruongSinh",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 3645072755,
+        "score": 77.27,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_TruongSinh.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 175.41
+    },
+    {
+      "asset_id": "Fruit_ThonPhe",
+      "subfolder": "Icons",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 2868010847,
+        "score": 78.69,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_ThonPhe.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 177.14
+    },
+    {
+      "asset_id": "Tag_KiemDao",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 3870824441,
+        "score": 69.27,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_KiemDao.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 176.39
+    },
+    {
+      "asset_id": "Tag_TheDao",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 6,
+        "seed": 4238089498,
+        "score": 79.18,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_TheDao.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 176.36
+    },
+    {
+      "asset_id": "Tag_PhuDao",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 3400009456,
+        "score": 88.9,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_PhuDao.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 176.8
+    },
+    {
+      "asset_id": "Tag_DanDao",
+      "subfolder": "Icons",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 3591585018,
+        "score": 89.1,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_DanDao.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 176.62
+    },
+    {
+      "asset_id": "Tag_MaDao",
+      "subfolder": "Icons",
+      "passed_count": 3,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 1151097366,
+        "score": 89.77,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_MaDao.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 178.56
+    },
+    {
+      "asset_id": "Pickup_LinhKhi",
+      "subfolder": "Icons",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 830230864,
+        "score": 94.09,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Pickup_LinhKhi.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 177.14
+    },
+    {
+      "asset_id": "Pickup_LinhThach",
+      "subfolder": "Icons",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 4,
+        "seed": 3499922891,
+        "score": 79.78,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Pickup_LinhThach.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 178.19
+    },
+    {
+      "asset_id": "Pickup_RuongBau",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 3,
+        "seed": 2555697308,
+        "score": 99.32,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Pickup_RuongBau.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 177.14
+    },
+    {
+      "asset_id": "VFX_CanhBao_X",
+      "subfolder": "Environment",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 4291813395,
+        "score": 64.05,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Environment\\VFX_CanhBao_X.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 350.94
+    },
+    {
+      "asset_id": "Env_ArenaFloor",
+      "subfolder": "Environment",
+      "passed_count": 8,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 6,
+        "seed": 757567670,
+        "score": 98.84,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Environment\\Env_ArenaFloor.png"
+      },
+      "backup_count": 7,
+      "elapsed_sec": 166.25
+    },
+    {
+      "asset_id": "Env_StonePillar",
+      "subfolder": "Environment",
+      "passed_count": 0,
+      "total_variants": 16,
+      "fallback_used": true,
+      "winner": {
+        "variant_idx": 13,
+        "seed": 4087084579,
+        "score": 59.89,
+        "fallback_used": true,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Environment\\Env_StonePillar.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 354.39
+    },
+    {
+      "asset_id": "UI_Panel_Scroll",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 1483709564,
+        "score": 83.93,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Panel_Scroll.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 178.41
+    },
+    {
+      "asset_id": "UI_Card_Frame",
+      "subfolder": "UI_Kit",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 2692637667,
+        "score": 75.85,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Card_Frame.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 173.08
+    },
+    {
+      "asset_id": "Border_1_Pham",
+      "subfolder": "UI_Kit",
+      "passed_count": 1,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 15,
+        "seed": 1910228688,
+        "score": 80.05,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_1_Pham.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 353.2
+    },
+    {
+      "asset_id": "Border_2_Linh",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 4,
+        "seed": 3484377249,
+        "score": 82.66,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_2_Linh.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 178.28
+    },
+    {
+      "asset_id": "Border_3_Dia",
+      "subfolder": "UI_Kit",
+      "passed_count": 3,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 6,
+        "seed": 3668260882,
+        "score": 88.36,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_3_Dia.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 176.8
+    },
+    {
+      "asset_id": "Border_4_Thien",
+      "subfolder": "UI_Kit",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 5,
+        "seed": 3603603880,
+        "score": 66.14,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_4_Thien.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 176.34
+    },
+    {
+      "asset_id": "Border_5_Tien",
+      "subfolder": "UI_Kit",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 1018447863,
+        "score": 74.78,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_5_Tien.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 176.84
+    },
+    {
+      "asset_id": "UI_Bar_Frame",
+      "subfolder": "UI_Kit",
+      "passed_count": 1,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 16,
+        "seed": 3970707647,
+        "score": 91.33,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Bar_Frame.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 332.27
+    },
+    {
+      "asset_id": "UI_Bar_Fill_White",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 1269128357,
+        "score": 61.38,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Bar_Fill_White.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 154.11
+    },
+    {
+      "asset_id": "UI_Icon_DonThuat",
+      "subfolder": "UI_Kit",
+      "passed_count": 3,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 185523503,
+        "score": 91.55,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Icon_DonThuat.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 178.25
+    },
+    {
+      "asset_id": "UI_Button_Frame",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 3010624601,
+        "score": 99.45,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Button_Frame.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 170.95
+    },
+    {
+      "asset_id": "UI_MainMenu_BG",
+      "subfolder": "UI_Kit",
+      "passed_count": 8,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 3842603430,
+        "score": 90.26,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_MainMenu_BG.png"
+      },
+      "backup_count": 7,
+      "elapsed_sec": 184.25
+    },
+    {
+      "asset_id": "UI_Game_Logo",
+      "subfolder": "UI_Kit",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 3329312275,
+        "score": 84.46,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Game_Logo.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 244.81
+    },
+    {
+      "asset_id": "UI_Element_Wheel",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 8,
+        "seed": 1425680880,
+        "score": 93.43,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Element_Wheel.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 176.08
+    },
+    {
+      "asset_id": "Cursor_Brush",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 1373465092,
+        "score": 92.48,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Cursor_Brush.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 173.02
+    },
+    {
+      "asset_id": "App_Icon",
+      "subfolder": "UI_Kit",
+      "passed_count": 8,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 5,
+        "seed": 2218664315,
+        "score": 99.07,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\App_Icon.png"
+      },
+      "backup_count": 7,
+      "elapsed_sec": 170.23
+    },
+    {
+      "asset_id": "VFX_PhapTuong_Halo",
+      "subfolder": "UI_Kit",
+      "passed_count": 3,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 4206055948,
+        "score": 81.5,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\VFX_PhapTuong_Halo.png"
+      },
+      "backup_count": 2,
+      "elapsed_sec": 190.69
+    },
+    {
+      "asset_id": "Event_TanHon",
+      "subfolder": "UI_Kit",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 947012317,
+        "score": 88.23,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Event_TanHon.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 191.88
+    },
+    {
+      "asset_id": "Event_LoDan",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 16,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 10,
+        "seed": 3127172783,
+        "score": 88.23,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Event_LoDan.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 384.97
+    },
+    {
+      "asset_id": "UI_Icon_Lock",
+      "subfolder": "UI_Kit",
+      "passed_count": 2,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 2,
+        "seed": 3438531561,
+        "score": 97.39,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Icon_Lock.png"
+      },
+      "backup_count": 1,
+      "elapsed_sec": 189.41
+    },
+    {
+      "asset_id": "VFX_Brush_Splash",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 5,
+        "seed": 4040424989,
+        "score": 63.74,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\VFX_Brush_Splash.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 0.94
+    },
+    {
+      "asset_id": "VFX_Fire_Wisp",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 1,
+        "seed": 2781014035,
+        "score": 73.79,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\VFX_Fire_Wisp.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 284.64
+    },
+    {
+      "asset_id": "VFX_Ice_Shard",
+      "subfolder": "Icons",
+      "passed_count": 1,
+      "total_variants": 8,
+      "fallback_used": false,
+      "winner": {
+        "variant_idx": 7,
+        "seed": 3607278624,
+        "score": 74.08,
+        "fallback_used": false,
+        "export_path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\VFX_Ice_Shard.png"
+      },
+      "backup_count": 0,
+      "elapsed_sec": 223.75
     }
   ]
 }

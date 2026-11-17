@@ -1,0 +1,1376 @@
+{
+  "audited_at": "2026-11-17 14:20:28",
+  "total_manifest": 63,
+  "total_passed": 63,
+  "total_backups": 70,
+  "by_subfolder": {
+    "Characters": {
+      "exported": 4,
+      "passed": 4,
+      "backups": 9
+    },
+    "Enemies": {
+      "exported": 7,
+      "passed": 7,
+      "backups": 7
+    },
+    "Icons": {
+      "exported": 29,
+      "passed": 29,
+      "backups": 18
+    },
+    "Environment": {
+      "exported": 3,
+      "passed": 3,
+      "backups": 8
+    },
+    "UI_Kit": {
+      "exported": 20,
+      "passed": 20,
+      "backups": 28
+    }
+  },
+  "zip_verification": {
+    "zip_path": "D:\\VanKiem_Art_Output\\VanKiem_All_Art.zip",
+    "zip_bytes": 62498736,
+    "zip_mb": 59.6,
+    "checked_entries": 196,
+    "checked_pngs": 196,
+    "total_uncompressed_mb": 59.6,
+    "archived_count": 196
+  },
+  "export_zip_verification": {
+    "zip_path": "D:\\VanKiem_Art_Output\\VanKiem_Art_Export.zip",
+    "zip_bytes": 12122480,
+    "zip_mb": 11.56,
+    "checked_entries": 63,
+    "checked_pngs": 63,
+    "total_uncompressed_mb": 11.56,
+    "archived_count": 63
+  },
+  "assets": [
+    {
+      "asset_id": "Char_KiemTu",
+      "subfolder": "Characters",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_KiemTu.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 185380,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5475,
+      "fg_ratio": 0.4511,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Char_TheTu",
+      "subfolder": "Characters",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_TheTu.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 233724,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6109,
+      "fg_ratio": 0.3863,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Char_PhuTu",
+      "subfolder": "Characters",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_PhuTu.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 173358,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6712,
+      "fg_ratio": 0.3268,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Char_DuocTu",
+      "subfolder": "Characters",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Characters\\Char_DuocTu.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 199558,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5691,
+      "fg_ratio": 0.4292,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Enemy_HacLang",
+      "subfolder": "Enemies",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_HacLang.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 129620,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7919,
+      "fg_ratio": 0.2054,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Enemy_HuyetDoi",
+      "subfolder": "Enemies",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_HuyetDoi.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 174472,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7081,
+      "fg_ratio": 0.2833,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Enemy_DocGiacXa",
+      "subfolder": "Enemies",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_DocGiacXa.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 193853,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5727,
+      "fg_ratio": 0.424,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Enemy_KhoCot",
+      "subfolder": "Enemies",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_KhoCot.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 119001,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7974,
+      "fg_ratio": 0.2006,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Enemy_ThietGiapHung",
+      "subfolder": "Enemies",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Enemy_ThietGiapHung.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 299040,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5052,
+      "fg_ratio": 0.4898,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Boss_HuyetNha",
+      "subfolder": "Enemies",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Boss_HuyetNha.png",
+      "remove_bg": true,
+      "expected_size": [
+        1024,
+        1024
+      ],
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "file_bytes": 1019282,
+      "mode": "RGBA",
+      "transparent_ratio": 0.4569,
+      "fg_ratio": 0.5312,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Boss_CuuULoiGiao",
+      "subfolder": "Enemies",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Enemies\\Boss_CuuULoiGiao.png",
+      "remove_bg": true,
+      "expected_size": [
+        1024,
+        1024
+      ],
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "file_bytes": 1213719,
+      "mode": "RGBA",
+      "transparent_ratio": 0.4262,
+      "fg_ratio": 0.5701,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Weapon_CuKiem",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_CuKiem.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 35079,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8032,
+      "fg_ratio": 0.1926,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Weapon_KimChung",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_KimChung.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 25939,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8611,
+      "fg_ratio": 0.1335,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Weapon_HuyetDao",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_HuyetDao.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 43541,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7851,
+      "fg_ratio": 0.2093,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Weapon_LienHoaDang",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_LienHoaDang.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 52016,
+      "mode": "RGBA",
+      "transparent_ratio": 0.754,
+      "fg_ratio": 0.2371,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Weapon_ThanhTrucKiem",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_ThanhTrucKiem.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 43167,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7689,
+      "fg_ratio": 0.2262,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Weapon_HuyenBangPhu",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Weapon_HuyenBangPhu.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 41271,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7923,
+      "fg_ratio": 0.204,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Item_Dan_HoiHuyet",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_HoiHuyet.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 97320,
+      "mode": "RGBA",
+      "transparent_ratio": 0.4513,
+      "fg_ratio": 0.5332,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Item_Dan_TuKhi",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_TuKhi.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 49550,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7716,
+      "fg_ratio": 0.2224,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Item_Dan_BaoNguyen",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_BaoNguyen.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 66351,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7047,
+      "fg_ratio": 0.2803,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Item_Dan_TayTuy",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_TayTuy.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 58750,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6982,
+      "fg_ratio": 0.2957,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Item_Dan_HoTam",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_HoTam.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 45038,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7587,
+      "fg_ratio": 0.2351,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Item_Dan_PhiThang",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Item_Dan_PhiThang.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 72883,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6454,
+      "fg_ratio": 0.3398,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Fruit_KiemTam",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_KiemTam.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 19396,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8431,
+      "fg_ratio": 0.1561,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Fruit_BatDiet",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_BatDiet.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 66670,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6535,
+      "fg_ratio": 0.3388,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Fruit_LoiDinh",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_LoiDinh.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 75165,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6169,
+      "fg_ratio": 0.3722,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Fruit_HonDon",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_HonDon.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 56217,
+      "mode": "RGBA",
+      "transparent_ratio": 0.696,
+      "fg_ratio": 0.2969,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Fruit_TruongSinh",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_TruongSinh.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 48656,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7383,
+      "fg_ratio": 0.2531,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Fruit_ThonPhe",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Fruit_ThonPhe.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 55055,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7041,
+      "fg_ratio": 0.2859,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Tag_KiemDao",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_KiemDao.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 42000,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7834,
+      "fg_ratio": 0.2106,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Tag_TheDao",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_TheDao.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 68884,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6226,
+      "fg_ratio": 0.3656,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Tag_PhuDao",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_PhuDao.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 68556,
+      "mode": "RGBA",
+      "transparent_ratio": 0.4314,
+      "fg_ratio": 0.5656,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Tag_DanDao",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_DanDao.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 84519,
+      "mode": "RGBA",
+      "transparent_ratio": 0.4203,
+      "fg_ratio": 0.5689,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Tag_MaDao",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Tag_MaDao.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 56072,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6018,
+      "fg_ratio": 0.3932,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Pickup_LinhKhi",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Pickup_LinhKhi.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 21193,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5216,
+      "fg_ratio": 0.4739,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Pickup_LinhThach",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Pickup_LinhThach.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 18752,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6492,
+      "fg_ratio": 0.3405,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Pickup_RuongBau",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\Pickup_RuongBau.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 22172,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5462,
+      "fg_ratio": 0.4518,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "VFX_CanhBao_X",
+      "subfolder": "Environment",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Environment\\VFX_CanhBao_X.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 13304,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8549,
+      "fg_ratio": 0.137,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Env_ArenaFloor",
+      "subfolder": "Environment",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Environment\\Env_ArenaFloor.png",
+      "remove_bg": false,
+      "expected_size": [
+        1024,
+        1024
+      ],
+      "actual_size": [
+        1024,
+        1024
+      ],
+      "file_bytes": 1600551,
+      "mode": "RGB",
+      "transparent_ratio": null,
+      "fg_ratio": null,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Env_StonePillar",
+      "subfolder": "Environment",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Environment\\Env_StonePillar.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 40843,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7739,
+      "fg_ratio": 0.2189,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Panel_Scroll",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Panel_Scroll.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 137910,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6361,
+      "fg_ratio": 0.3611,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Card_Frame",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Card_Frame.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        512
+      ],
+      "actual_size": [
+        256,
+        512
+      ],
+      "file_bytes": 143829,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6504,
+      "fg_ratio": 0.3331,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Border_1_Pham",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_1_Pham.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 73697,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7397,
+      "fg_ratio": 0.2458,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Border_2_Linh",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_2_Linh.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 94384,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5404,
+      "fg_ratio": 0.4543,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Border_3_Dia",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_3_Dia.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 113626,
+      "mode": "RGBA",
+      "transparent_ratio": 0.3608,
+      "fg_ratio": 0.5935,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Border_4_Thien",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_4_Thien.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 57543,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8369,
+      "fg_ratio": 0.1507,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Border_5_Tien",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Border_5_Tien.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 115411,
+      "mode": "RGBA",
+      "transparent_ratio": 0.4337,
+      "fg_ratio": 0.534,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Bar_Frame",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Bar_Frame.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        64
+      ],
+      "actual_size": [
+        512,
+        64
+      ],
+      "file_bytes": 26269,
+      "mode": "RGBA",
+      "transparent_ratio": 0.5018,
+      "fg_ratio": 0.4705,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Bar_Fill_White",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Bar_Fill_White.png",
+      "remove_bg": false,
+      "expected_size": [
+        512,
+        64
+      ],
+      "actual_size": [
+        512,
+        64
+      ],
+      "file_bytes": 36946,
+      "mode": "RGB",
+      "transparent_ratio": null,
+      "fg_ratio": null,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Icon_DonThuat",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Icon_DonThuat.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 18285,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7281,
+      "fg_ratio": 0.2618,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Button_Frame",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Button_Frame.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        128
+      ],
+      "actual_size": [
+        512,
+        128
+      ],
+      "file_bytes": 81609,
+      "mode": "RGBA",
+      "transparent_ratio": 0.1294,
+      "fg_ratio": 0.8684,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_MainMenu_BG",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_MainMenu_BG.png",
+      "remove_bg": false,
+      "expected_size": [
+        1920,
+        1080
+      ],
+      "actual_size": [
+        1920,
+        1080
+      ],
+      "file_bytes": 2779128,
+      "mode": "RGB",
+      "transparent_ratio": null,
+      "fg_ratio": null,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Game_Logo",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Game_Logo.png",
+      "remove_bg": true,
+      "expected_size": [
+        1024,
+        512
+      ],
+      "actual_size": [
+        1024,
+        512
+      ],
+      "file_bytes": 359140,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7415,
+      "fg_ratio": 0.2542,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Element_Wheel",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Element_Wheel.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 351326,
+      "mode": "RGBA",
+      "transparent_ratio": 0.3797,
+      "fg_ratio": 0.6197,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Cursor_Brush",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Cursor_Brush.png",
+      "remove_bg": true,
+      "expected_size": [
+        64,
+        64
+      ],
+      "actual_size": [
+        64,
+        64
+      ],
+      "file_bytes": 4285,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6943,
+      "fg_ratio": 0.2988,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "App_Icon",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\App_Icon.png",
+      "remove_bg": false,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 366202,
+      "mode": "RGB",
+      "transparent_ratio": null,
+      "fg_ratio": null,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "VFX_PhapTuong_Halo",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\VFX_PhapTuong_Halo.png",
+      "remove_bg": true,
+      "expected_size": [
+        512,
+        512
+      ],
+      "actual_size": [
+        512,
+        512
+      ],
+      "file_bytes": 219080,
+      "mode": "RGBA",
+      "transparent_ratio": 0.7454,
+      "fg_ratio": 0.2517,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Event_TanHon",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Event_TanHon.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 76971,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6517,
+      "fg_ratio": 0.3366,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "Event_LoDan",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\Event_LoDan.png",
+      "remove_bg": true,
+      "expected_size": [
+        256,
+        256
+      ],
+      "actual_size": [
+        256,
+        256
+      ],
+      "file_bytes": 82547,
+      "mode": "RGBA",
+      "transparent_ratio": 0.6071,
+      "fg_ratio": 0.3832,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "UI_Icon_Lock",
+      "subfolder": "UI_Kit",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\UI_Kit\\UI_Icon_Lock.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 23293,
+      "mode": "RGBA",
+      "transparent_ratio": 0.4173,
+      "fg_ratio": 0.5807,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "VFX_Brush_Splash",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\VFX_Brush_Splash.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 10179,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8429,
+      "fg_ratio": 0.1421,
+      "passed": true,
+      "issues": [],
+      "remediated": false
+    },
+    {
+      "asset_id": "VFX_Fire_Wisp",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\VFX_Fire_Wisp.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 12358,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8054,
+      "fg_ratio": 0.1846,
+      "passed": true,
+      "issues": [],
+      "remediated": true
+    },
+    {
+      "asset_id": "VFX_Ice_Shard",
+      "subfolder": "Icons",
+      "path": "D:\\VanKiem_Art_Output\\Art_Export\\Icons\\VFX_Ice_Shard.png",
+      "remove_bg": true,
+      "expected_size": [
+        128,
+        128
+      ],
+      "actual_size": [
+        128,
+        128
+      ],
+      "file_bytes": 9790,
+      "mode": "RGBA",
+      "transparent_ratio": 0.8675,
+      "fg_ratio": 0.1249,
+      "passed": true,
+      "issues": [],
+      "remediated": true
+    }
+  ]
+}
