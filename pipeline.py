@@ -87,17 +87,30 @@ def _evaluate_items(
     spec: AssetSpec,
     raw_dir: Path,
     cutout_dir: Path,
+    use_cached_cutouts: bool = False,
 ) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     for v_idx, seed, png_bytes, gen_sec in items:
-        with Image.open(io.BytesIO(png_bytes)) as raw_img:
-            t0 = time.monotonic()
-            cutout = remove_background(raw_img, spec)
-            analysis = analyze_alpha(cutout, spec)
-            proc_sec = round(time.monotonic() - t0, 2)
-
         cutout_file = cutout_dir / f"v{v_idx:02d}_seed_{seed}_cutout.png"
-        cutout.save(cutout_file, format="PNG")
+        t0 = time.monotonic()
+        if use_cached_cutouts and cutout_file.is_file():
+            with Image.open(cutout_file) as cached_im:
+                cached_im.load()
+                cutout = cached_im.convert("RGBA")
+        else:
+            with Image.open(io.BytesIO(png_bytes)) as raw_img:
+                try:
+                    cutout = remove_background(raw_img, spec)
+                except PermissionError:
+                    if not cutout_file.is_file():
+                        raise
+                    with Image.open(cutout_file) as cached_im:
+                        cached_im.load()
+                        cutout = cached_im.convert("RGBA")
+            cutout.save(cutout_file, format="PNG")
+
+        analysis = analyze_alpha(cutout, spec)
+        proc_sec = round(time.monotonic() - t0, 2)
 
         status_tag = "PASS" if analysis.passed else "REJECT"
         reason_str = "" if analysis.passed else f" | reasons={list(analysis.reject_reasons)}"
@@ -194,7 +207,13 @@ def process_asset(
     if not raw_items:
         raise RuntimeError(f"No raw variants available for {spec.id}.")
 
-    records = _evaluate_items(raw_items, spec, raw_dir, cutout_dir)
+    records = _evaluate_items(
+        raw_items,
+        spec,
+        raw_dir,
+        cutout_dir,
+        use_cached_cutouts=reprocess_raw,
+    )
     passing = [r for r in records if r["analysis"].passed]
 
     # Single automatic retry batch if every initial variant failed quality filters
@@ -343,14 +362,18 @@ def process_asset(
     return report
 
 
-def create_archive(root: Path, zip_name: str = "VanKiem_All_Art.zip") -> tuple[Path, int]:
-    """Compress Art_Export and Backup_Candidates into a verified zip archive at root."""
+def create_archive(
+    root: Path,
+    zip_name: str = "VanKiem_All_Art.zip",
+    folders: tuple[str, ...] = ("Assets/Art", "Art_Export", "Backup_Candidates"),
+) -> tuple[Path, int]:
+    """Compress specified workspace folders into a verified zip archive at root."""
     zip_path = root / zip_name
     tmp_path = root / f".{zip_name}.tmp"
     file_count = 0
 
     with zipfile.ZipFile(tmp_path, mode="w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as zf:
-        for folder_name in ("Art_Export", "Backup_Candidates"):
+        for folder_name in folders:
             folder_path = root / folder_name
             if not folder_path.exists():
                 continue

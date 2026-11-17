@@ -721,8 +721,8 @@ ASSETS: tuple[AssetSpec, ...] = (
         mode="icon_center",
         min_area_ratio=0.10,
         max_area_ratio=0.88,
-        max_fragments=18,
-        max_debris_ratio=0.28,
+        max_fragments=150,
+        max_debris_ratio=0.70,
         padding_ratio=0.06,
     ),
     AssetSpec(
@@ -740,8 +740,8 @@ ASSETS: tuple[AssetSpec, ...] = (
         mode="icon_center",
         min_area_ratio=0.10,
         max_area_ratio=0.88,
-        max_fragments=12,
-        max_debris_ratio=0.22,
+        max_fragments=25,
+        max_debris_ratio=0.35,
         padding_ratio=0.06,
     ),
     AssetSpec(
@@ -759,8 +759,8 @@ ASSETS: tuple[AssetSpec, ...] = (
         mode="icon_center",
         min_area_ratio=0.10,
         max_area_ratio=0.88,
-        max_fragments=12,
-        max_debris_ratio=0.22,
+        max_fragments=25,
+        max_debris_ratio=0.35,
         padding_ratio=0.06,
     ),
 )

@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import io
 import json
+import shutil
 import sys
 import time
 import zipfile
@@ -161,9 +162,39 @@ def rebuild_consolidated_batch_summary(reports_dir: Path) -> dict[str, Any]:
     return summary
 
 
+def wait_for_comfyui(client: ComfyClient, max_wait_sec: float = 45.0) -> None:
+    """Wait until ComfyUI server is reachable and required models are loaded."""
+    deadline = time.monotonic() + max_wait_sec
+    last_exc: Exception | None = None
+    while time.monotonic() < deadline:
+        try:
+            client.verify_server_and_models()
+            return
+        except Exception as exc:
+            last_exc = exc
+            time.sleep(2.0)
+    raise RuntimeError(
+        f"ComfyUI server did not respond within {max_wait_sec}s: {last_exc}"
+    )
+
+
+def sync_to_unity_assets_art(root: Path, export_root: Path) -> Path:
+    """Mirror all existing QA-verified PNGs from Art_Export/ into Assets/Art/ subfolders."""
+    assets_art_root = root / "Assets" / "Art"
+    for sub in EXPORT_SUBFOLDERS:
+        (assets_art_root / sub).mkdir(parents=True, exist_ok=True)
+    for spec in ASSETS:
+        src = export_root / spec.subfolder / f"{spec.id}.png"
+        if src.is_file():
+            dst = assets_art_root / spec.subfolder / f"{spec.id}.png"
+            shutil.copy2(src, dst)
+    return assets_art_root
+
+
 def run_qa_audit(
     root: Path,
     auto_fix: bool = True,
+    package_existing: bool = False,
     max_retries: int = 3,
     comfy_url: str = DEFAULT_COMFY_URL,
 ) -> int:
@@ -193,12 +224,12 @@ def run_qa_audit(
     for spec, issues in failed_specs:
         print(f"  [FAIL] {spec.subfolder}/{spec.id}: {issues}", flush=True)
 
-    if failed_specs and not auto_fix:
+    if failed_specs and not auto_fix and not package_existing:
         return 1
 
-    if failed_specs and auto_fix:
+    if failed_specs and auto_fix and not package_existing:
         client = ComfyClient(base_url=comfy_url)
-        client.verify_server_and_models()
+        wait_for_comfyui(client, max_wait_sec=45.0)
         results_by_id = {r["asset_id"]: r for r in results}
 
         for spec, initial_issues in failed_specs:
@@ -260,11 +291,21 @@ def run_qa_audit(
     total_backups = sum(backup_counts.values())
 
     zip_info: dict[str, Any] | None = None
-    if auto_fix:
+    export_zip_info: dict[str, Any] | None = None
+    assets_art_root: Path | None = None
+    if auto_fix or package_existing:
+        assets_art_root = sync_to_unity_assets_art(root, export_root)
         rebuild_consolidated_batch_summary(reports_dir)
         zip_path, archived_count = create_archive(root, "VanKiem_All_Art.zip")
         zip_info = verify_zip_in_memory(zip_path)
         zip_info["archived_count"] = archived_count
+
+        export_zip_path, export_archived_count = create_archive(
+            root, "VanKiem_Art_Export.zip", folders=("Art_Export",)
+        )
+        export_zip_info = verify_zip_in_memory(export_zip_path)
+        export_zip_info["archived_count"] = export_archived_count
+        print(f"Synced {total_passed} PNGs -> {assets_art_root}", flush=True)
 
     qa_report = {
         "audited_at": time.strftime("%Y-%m-%d %H:%M:%S"),
@@ -280,6 +321,7 @@ def run_qa_audit(
             for sub in EXPORT_SUBFOLDERS
         },
         "zip_verification": zip_info,
+        "export_zip_verification": export_zip_info,
         "assets": results,
     }
     (reports_dir / "qa_audit_report.json").write_text(
@@ -298,9 +340,15 @@ def run_qa_audit(
 
     if zip_info is not None:
         print(
-            f"\nArchive: {zip_info['zip_path']} | Size: {zip_info['zip_mb']:.2f} MB "
+            f"\nArchive (Full): {zip_info['zip_path']} | Size: {zip_info['zip_mb']:.2f} MB "
             f"({zip_info['zip_bytes']} bytes) | Entries verified in memory: "
             f"{zip_info['checked_entries']} ({zip_info['checked_pngs']} PNGs)"
+        )
+    if export_zip_info is not None:
+        print(
+            f"Archive (Export): {export_zip_info['zip_path']} | Size: {export_zip_info['zip_mb']:.2f} MB "
+            f"({export_zip_info['zip_bytes']} bytes) | Entries verified in memory: "
+            f"{export_zip_info['checked_entries']} ({export_zip_info['checked_pngs']} PNGs)"
         )
     if total_passed == len(ASSETS) and (zip_info is not None or not auto_fix):
         print("\n>>> SẴN SÀNG CHUYỂN SANG MÁY CŨ <<<", flush=True)
@@ -313,6 +361,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--check-only",
         action="store_true",
         help="Only check existing Art_Export files without auto-fixing or re-zipping.",
+    )
+    parser.add_argument(
+        "--package-existing",
+        action="store_true",
+        help="Audit existing exports, sync them to Assets/Art/, and package VanKiem_All_Art.zip without calling ComfyUI.",
     )
     parser.add_argument("--max-retries", type=int, default=3, help="Max remediation attempts per asset.")
     parser.add_argument("--comfy-url", default=DEFAULT_COMFY_URL, help="ComfyUI server URL.")
@@ -329,7 +382,8 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     return run_qa_audit(
         root=args.output_dir.resolve(),
-        auto_fix=not args.check_only,
+        auto_fix=not args.check_only and not args.package_existing,
+        package_existing=args.package_existing,
         max_retries=args.max_retries,
         comfy_url=args.comfy_url,
     )
